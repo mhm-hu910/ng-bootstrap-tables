@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+/* Importing PRIMENG css files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+.title{
+    text-align: center;
+    padding: 25px;
+    font-size: xx-large;
+}
+
+body {
+    font-family: var(--font-family);
+}
